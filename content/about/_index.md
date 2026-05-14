@@ -9,6 +9,8 @@ In my 20 years in the game industry, I’ve had the privilege of contributing to
 
 For the last eight years, I've served as the sole DevOps/Build Engineer and Perforce Administrator at Imangi Studios.   I owned everything from CI/CD pipelines and build farm infrastructure to developer support and source control administrator for a studio with distributed workforce. My colleagues call me the Perforce wizard because I've made sure that any issue they had was dealt with quickly as well as providing know-how through documentation, videos, and to make sure others can become wizards too.
 
+Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a lifelong Magic the Gathering collector who’s recently got back into playing.   Which goes without saying, I’m also a gamer as well.  I enjoy making my own board, cards, and video games at home too. 
+
 ### Philosophy
 _Developer-First Engineer_
 -- My goal is to make every developer around me faster, more confident, and more impactful. 
