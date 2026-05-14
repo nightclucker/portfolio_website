@@ -1,0 +1,39 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Justin Hair's Portfolio"
+theme = "hugo-arcana"
+
+paginate = 10
+
+[params]
+    description = "A clean portfolio site for showcasing work, skills, and contact details."
+    images = []
+    show_post_dates = true
+    author = "Justin"
+    hide_credits = false
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+[[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin-in"
+    url = "https://www.linkedin.com/in/justinhair/"

@@ -1,0 +1,25 @@
+banner:
+  enable: true
+  image: "images/banner2.png"
+  contents: "**A DevOps/Build Engineers Portfolio Site**"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: 20 Years of Experience
+      icon: fa-spinner
+      content: >
+        With hands-on experience using and implementing CI/CD, automation, developer tools, source control management, and software testing.
+    - title: Builds and Automation
+      icon: fa-cogs
+      content: >
+        Sole build engineer for Unreal and Unity games including the hit Temple Run franchise which has been downloaded over a billion times.
+    - title: Developer-First Engineer
+      icon: fa-heart
+      content: >
+        "The developer is my customer" is my philosophy.  I strive to create tools and processes that make developers' lives easier and more productive.
+  - type: cta
+    contents: Let's automate it!
+    button:
+      contents: Contact Me
+      url: "Contact"
