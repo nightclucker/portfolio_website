@@ -27,7 +27,7 @@ This is achieved by:
 - Never being rude or talking down to them.
 
 
-**_"The spice must flow"_** -- The goal is to ship and to ship on time. If you want to gain the most benefit from a product, you must keep development moving smoothly and predictably.
+**_"The spice must flow"_** -- The goal is to ship and to ship on time. If you want to gain the most value from a product, you must keep development moving smoothly and predictably.
 
 No one wants the emperor mad at them.
 
