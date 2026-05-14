@@ -12,11 +12,35 @@ For the last eight years, I've served as the sole DevOps/Build Engineer and Perf
 Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a lifelong Magic the Gathering collector who’s recently got back into playing.   Which goes without saying, I’m also a gamer as well.  I enjoy making my own board, cards, and video games at home too. 
 
 ### Philosophy
-_Developer-First Engineer_
--- My goal is to make every developer around me faster, more confident, and more impactful. 
+**_Developer-First Engineer_** -- My goal is to make every developer around me more impactful by eliminating friction and creating an environment where they can feel confident and engaged with their work.  I also make it clear that no one has to suffer in silence. If someone is stuck, uncertain, or overwhelmed then I’m the person they can come to.
 
-_"The spice must flow"_ -- When a developer becomes blocked or a critical job or build fails to be produced I do what I can to get things flowing again.  No one wants the emperor to be mad at them. 
-- Coach Hair
+This is achieved by:
+
+- Being available and open for communication.
+- Following up.
+- Automating mundane tasks.
+- Writing tools and scripts to assist with their task.
+- Listening to feedback.
+- Collaborating with the dev on their workflows and processes.
+- Providing and writing documentation.
+- Creating short support videos. <- very effective
+- Never being rude or talking down to them.
+
+
+**_"The spice must flow"_** -- The goal is to ship and to ship on time. If you want to gain the most benefit from a product, you must keep development moving smoothly and predictably.
+
+No one wants the emperor mad at them.
+
+This is achieved by:
+
+- Identifying any potential future issues.
+- Promoting processes and workflows that'll keep bigger issues at bay.
+- Determine any action items from a blocking issue.
+- Document major blockers and fixes.
+- Fixing items before they reach the developers.
+- Working with the developer who caused a blocker to prevent it from happening again. 
+- Notifying others of the issue.
+
 
 ### Work History
 
