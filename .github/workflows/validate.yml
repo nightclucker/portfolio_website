@@ -1,0 +1,103 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Build & Validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      # ── 1. Hugo build check ────────────────────────────────────────────────
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Build site
+        run: hugo --minify --destination public
+        # If the build fails, nothing below runs — that's intentional.
+
+      # ── 2. Markdown linting ────────────────────────────────────────────────
+      - name: Install markdownlint-cli
+        run: npm install -g markdownlint-cli
+
+      - name: Lint Markdown
+        run: markdownlint "content/**/*.md"
+        # To customise rules, add a .markdownlint.json at your repo root.
+        # Common starter config:
+        #   { "MD013": false }   <- disables line-length rule (handy for prose)
+
+      # ── 3. Spell check ─────────────────────────────────────────────────────
+      - name: Install cspell
+        run: npm install -g cspell
+
+      - name: Spell check
+        run: cspell "content/**/*.md"
+        # Add a cspell.json at your repo root to configure dictionaries and
+        # ignore lists. Example to get started:
+        #
+        # {
+        #   "version": "0.2",
+        #   "language": "en-US",
+        #   "ignorePaths": ["public/**", "themes/**"],
+        #   "words": ["DevOps", "Hugo", "Perforce", "yourname"]
+        # }
+
+      # ── 4. HTML & link validation ──────────────────────────────────────────
+      - name: Setup Ruby (required for htmlproofer)
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+
+      - name: Install htmlproofer
+        run: gem install html-proofer
+
+      - name: Run htmlproofer
+        run: |
+          htmlproofer public \
+            --disable-external \
+            --ignore-urls "/localhost/,/127.0.0.1/" \
+            --allow-missing-href
+        # --disable-external skips checking external URLs (faster, avoids
+        # false failures from rate-limited sites). Remove it if you want full
+        # link checking — but expect slower runs and occasional flakiness.
+
+  # ── Promote to release if all checks passed ──────────────────────────────
+  promote:
+    name: Promote to release
+    needs: validate
+    runs-on: ubuntu-latest
+    if: success()
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge main → release
+        run: |
+          git fetch origin
+          git checkout release
+          git merge --ff-only origin/main
+          git push origin release
+        # --ff-only keeps history clean. If this ever fails it means release
+        # has diverged from main, which shouldn't happen in normal use — it's
+        # a signal something was pushed to release directly.

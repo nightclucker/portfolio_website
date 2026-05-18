@@ -1,0 +1,28 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "ignorePaths": [
+    "public/**",
+    "themes/**",
+    "resources/**",
+    ".github/**"
+  ],
+  "words": [
+    "DevOps",
+    "devops",
+    "Hugo",
+    "Perforce",
+    "Unreal",
+    "markdownlint",
+    "htmlproofer",
+    "cspell",
+    "shortcode",
+    "shortcodes",
+    "frontmatter",
+    "GitOps",
+    "ArgoCD",
+    "colocation",
+    "LawBreakers",
+    "Imangis"
+  ]
+}
