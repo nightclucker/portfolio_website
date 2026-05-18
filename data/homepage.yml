@@ -22,4 +22,4 @@ items:
     contents: Let's automate it!
     button:
       contents: Contact Me
-      url: "Contact"
+      url: "/contact/"
