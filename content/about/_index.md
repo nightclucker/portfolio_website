@@ -3,13 +3,22 @@ weight: 1
 sidebar_left: skills
 sidebar_right: credits
 ---
+
+[About Me](#about-me) | [Philosophy](#philosophy) | [Work History](#work-history) 
+| [Education](#education) | [Fun Facts](#fun-facts)| [Links](#links)
+
 ## About Me
 
 In my 20 years in the game industry, I’ve had the privilege of contributing to some great franchises such as Temple Run and Gears of War all the time working alongside some truly amazing people.  It’s mind boggling to think that the products we worked on have been played by millions and millions of people.  The Temple Run franchise alone has over a billion downloads.
 
 For the last eight years, I've served as the sole DevOps/Build Engineer and Perforce Administrator at Imangi Studios.   I owned everything from CI/CD pipelines and build farm infrastructure to developer support and source control administrator for a studio with distributed workforce. My colleagues call me the Perforce wizard because I've made sure that any issue they had was dealt with quickly as well as providing know-how through documentation, videos, and to make sure others can become wizards too.
 
-Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a lifelong Magic the Gathering collector who’s recently got back into playing.   Which goes without saying, I’m also a gamer as well.  I enjoy making my own board, cards, and video games at home too. 
+Reliability and kindness are the two things I want to be known for. I care genuinely about the people I work with and when someone's stuck, I want to help, and when things go wrong, I'd rather we figure it out together than point fingers. I try and want to be the kind of teammate who shows up, shares what they know, and leaves the team better than they found it.
+
+I also like leaving my mark in small ways where ever I am.  That would include such things as fist-bumping everyone and the camera at the end of a virtual meeting, leaving an inspirational quote on the office coffee carafe, or spending way too long Photoshopping a colleague's face onto a baseball card just to make them laugh. 
+
+Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a life-long Magic the Gathering collector who’s recently got back into playing.   I’m also a gamer as well which should go without saying.  I enjoy making my own board, cards, and video games at home too. 
+
 
 ## Philosophy
 **_Developer-First Engineer_** -- My goal is to make every developer around me more impactful by eliminating friction and creating an environment where they can feel confident and engaged with their work.  I also make it clear that no one has to suffer in silence. If someone is stuck, uncertain, or overwhelmed then I’m the person they can come to.  This is achieved by:
@@ -23,6 +32,7 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 - Providing and writing documentation.
 - Creating short support videos. <- very effective
 - Never being rude or talking down to them.
+
 
 
 **_"The spice must flow"_** -- The goal is to ship and to ship on time. If you want to gain the most value from a product, you must keep development moving smoothly and predictably. No one wants the emperor mad at them. This is achieved by:
@@ -82,11 +92,20 @@ Where it all started. Black-box tested Gears of War 1, Unreal Tournament 3, and 
 
 
 ## Education
+
 B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology, Tempe, AZ – 2006
 
-## Favorite Games
+
+## Fun Facts
+
+- I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map.  I designed, shelled it, and made changes based on playtest feedback while an artist made it pretty. 
+- I won first place in the World of Level Designs ["Storytelling Level Design Challenge"](https://www.worldofleveldesign.com/categories/level_design_challenges/storytelling2-2012-level-design-challenge-04-top-5-and-winner.php).  Using the UDK I had handcrafted a small scene that told story based on this quote '"Fire takes what it wants and what it wants is usually what we hold most dear. But a little is always left behind - a new start." - Written by: WarrenM'.  You can see the final version here: [NightCluckers entry](https://youtu.be/286i7U26yEU?si=AyclIzHKsPDhfBXy)
+- I was a travel league baseball coach for several years.  It's a lot of work but can be rewarding at times.
+
 
 ## Links
 - LinkedIn: [linkedin.com/in/justinhair](https://www.linkedin.com/in/justinhair)
 
 {{< figure src="THISONE2.png" alt="Photo of Justin." width="300" >}}
+
+[Back to top](#about-me)
