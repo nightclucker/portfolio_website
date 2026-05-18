@@ -106,7 +106,7 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 
 
 ## Links
-- LinkedIn: [linkedin.com/in/justinhair](https://www.linkedin.com/in/justinhair)
+LinkedIn: [linkedin.com/in/justinhair](https://www.linkedin.com/in/justinhair)
 
 {{< figure src="THISONE2.png" alt="Photo of Justin." width="300" >}}
 
