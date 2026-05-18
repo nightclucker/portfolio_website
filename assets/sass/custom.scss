@@ -3,3 +3,16 @@
     height: 20em;
     width: 100%;
 }
+
+/* About page images */
+.about-images {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.about-images img {
+    width: 140px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

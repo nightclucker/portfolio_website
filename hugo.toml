@@ -5,6 +5,11 @@ theme = "hugo-arcana"
 
 paginate = 10
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
     description = "A clean portfolio site for showcasing work, skills, and contact details."
     images = []

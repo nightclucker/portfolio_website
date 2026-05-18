@@ -112,7 +112,11 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 - Baseball doesn't stop at coaching. I still play in a local adult rec league.
 - My all-time favorite game is Wing Commander. 
 
-![This is me](/images/me_circle_01.png) ![This is me, too](/images/me_circle_00.png)
-
+<div class="about-images">
+	<img src="/images/me_circle_01.png" alt="This is me">
+	<img src="/images/me_circle_00.png" alt="This is me, too">
+    <img src="/images/me_circle_02.png" alt="This is me pretending to be a middle manager.">
+    <img src="/images/me_circle_03.png" alt="This is me looking tough, as the kids would say.">
+</div>
 
 [Back to top](#about-me)
