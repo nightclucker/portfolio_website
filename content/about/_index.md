@@ -1,11 +1,9 @@
 ---
 weight: 1
-sidebar_left: skills
-sidebar_right: credits
+sidebar_right: skills
 ---
 
-[About Me](#about-me) | [Philosophy](#philosophy) | [Work History](#work-history) 
-| [Education](#education) | [Fun Facts](#fun-facts)| [Links](#links)
+[About Me](#about-me) | [Notable Credits](#notable-credits) | [Philosophy](#philosophy) | [Work History](#work-history) | [Education](#education) | [Fun Facts](#fun-facts)
 
 ## About Me
 
@@ -18,6 +16,16 @@ Reliability and kindness are the two things I want to be known for. I care genui
 I also like leaving my mark in small ways where ever I am.  That would include such things as fist-bumping everyone and the camera at the end of a virtual meeting, leaving an inspirational quote on the office coffee carafe, or spending way too long Photoshopping a colleague's face onto a baseball card just to make them laugh. 
 
 Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a life-long Magic the Gathering collector who’s recently got back into playing.   I’m also a gamer as well which should go without saying.  I enjoy making my own board, cards, and video games at home too. 
+
+## Notable Credits
+- Temple Run Legends | Temple Run 3 | Temple Run 2 | Temple Run 1 | Temple Run+ | Temple Run Idle
+- Radical Heights
+- LawBreakers
+- Fortnite
+- Infinity Blade Series
+- Gears of War Judgement | Gears of War 3 | Gears of War 2 | Gears of War 1
+- Unreal Tournament 3
+- Unreal Engine 4 | Unreal Engine 3 | Unreal Development Kit (UDK)
 
 
 ## Philosophy
@@ -98,15 +106,12 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 
 ## Fun Facts
 
-- I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map.  I designed, shelled it, and made changes based on playtest feedback while an artist made it pretty. 
-- I won first place in the World of Level Designs ["Storytelling Level Design Challenge"](https://www.worldofleveldesign.com/categories/level_design_challenges/storytelling2-2012-level-design-challenge-04-top-5-and-winner.php).  Using the UDK I had handcrafted a small scene that told story based on this quote '"Fire takes what it wants and what it wants is usually what we hold most dear. But a little is always left behind - a new start." - Written by: WarrenM'.  You can see the final version here: [NightCluckers entry](https://youtu.be/286i7U26yEU?si=AyclIzHKsPDhfBXy)
-- I was a travel league baseball coach for several years.  It's a lot of work but can be rewarding at times.
-- I am a big baseball person and I even still play as an adult in a local recreation league.
-- I have cricut which I use to make t-shirts or decals with.  
+- I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map.  I designed it, shelled it, and iterated on it based on playtest feedback while an artist made it look. 
+- I won first place in the World of Level Designs ["Storytelling Level Design Challenge"](https://www.worldofleveldesign.com/categories/level_design_challenges/storytelling2-2012-level-design-challenge-04-top-5-and-winner.php).  Using the UDK, I handcrafted a small scene built around a single quote about fire and loss. You can see the final result here: [NightCluckers entry](https://youtu.be/286i7U26yEU?si=AyclIzHKsPDhfBXy)
+- I was a volunteer travel league baseball coach for ages 9-13 for several years.  A lot of work, genuinely one of the most rewarding things I've done.
+- Baseball doesn't stop at coaching. I still play in a local adult rec league.
+- My all-time favorite game is Wing Commander. 
 
-
-## Links
-LinkedIn: [linkedin.com/in/justinhair](https://www.linkedin.com/in/justinhair)
 
 {{< figure src="THISONE2.png" alt="Photo of Justin." width="300" >}}
 
