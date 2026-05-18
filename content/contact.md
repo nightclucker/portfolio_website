@@ -6,7 +6,7 @@ weight: 4
 Let’s connect.
 
 - Email: [hairgamer@live.com](mailto:hairgamer@live.com)
-- LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
-- GitHub: [github.com/yourname](https://github.com/yourname)
+- LinkedIn: [https://www.linkedin.com/in/justinhair/](https://www.linkedin.com/in/justinhair/)
+- GitHub: [https://github.com/nightclucker](https://github.com/nightclucker)
 
-If you have a project in mind or want to collaborate, send a note and I’ll reply soon.
+If you have a job opportunity, project in mind, or want to collaborate, send a note and I’ll reply soon.
