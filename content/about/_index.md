@@ -101,6 +101,8 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 - I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map.  I designed, shelled it, and made changes based on playtest feedback while an artist made it pretty. 
 - I won first place in the World of Level Designs ["Storytelling Level Design Challenge"](https://www.worldofleveldesign.com/categories/level_design_challenges/storytelling2-2012-level-design-challenge-04-top-5-and-winner.php).  Using the UDK I had handcrafted a small scene that told story based on this quote '"Fire takes what it wants and what it wants is usually what we hold most dear. But a little is always left behind - a new start." - Written by: WarrenM'.  You can see the final version here: [NightCluckers entry](https://youtu.be/286i7U26yEU?si=AyclIzHKsPDhfBXy)
 - I was a travel league baseball coach for several years.  It's a lot of work but can be rewarding at times.
+- I am a big baseball person and I even still play as an adult in a local recreation league.
+- I have cricut which I use to make t-shirts or decals with.  
 
 
 ## Links
