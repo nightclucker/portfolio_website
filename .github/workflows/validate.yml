@@ -74,11 +74,13 @@ jobs:
         # link checking — but expect slower runs and occasional flakiness.
 
   # ── Promote to release if all checks passed ──────────────────────────────
-  promote:
+promote:
     name: Promote to release
     needs: validate
     runs-on: ubuntu-latest
     if: success()
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
