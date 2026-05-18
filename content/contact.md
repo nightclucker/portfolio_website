@@ -11,5 +11,4 @@ Let’s connect.
 
 If you have a job opportunity, project in mind, or want to collaborate, send a note and I’ll reply soon.
 
-
 ![This is me](/images/me_circle_00.png)
