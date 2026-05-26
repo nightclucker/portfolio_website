@@ -22,15 +22,15 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 
 |**Category**|**Tools**|
 |:---|:---|
-|*CI/CD & Build*|Jenkins, Fastlane, Python-based build frameworks|
-|*Version Control*|Perforce (P4D, P4V, Swarm, P4P), GitHub (administration), Git|
-|*Languages*|Python, Bash/Shell, Groovy, C++, HTML|
-|*Cloud & Infrastructure*|AWS, On-Prem/On-Metal, Colocation|
-|*Game Engines*|Unreal Engine, Unity|
-|*Shipped Platforms*|iOS, tvOS, macOS, Android, Windows, PlayStation 4|
-|*Stores Shipped To*|Google Play Store, Apple Store Connect, TestFlight, Apple Arcade, Steam|
-|*IDEs*|PyCharm, Rider, VS Code, Visual Studio|
-|*Art Tools*|Affinity Designer, Affinity Photo|
+|*CI/CD & Build*|Jenkins \| Fastlane \| Python-based build frameworks|
+|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| GitHub (administration) \| Git|
+|*Languages*|Python \| Bash/Shell \| Groovy \| C++ \| HTML|
+|*Cloud & Infrastructure*|AWS \| On-Prem/On-Metal \| Colocation|
+|*Game Engines*|Unreal Engine \| Unity|
+|*Shipped Platforms*|iOS \| tvOS \| macOS \| Android \| Windows \| PlayStation 4|
+|*Stores Shipped To*|Google Play Store \| Apple Store Connect \| TestFlight \| Apple Arcade \| Steam|
+|*IDEs*|PyCharm \| Rider \| VS Code \| Visual Studio|
+|*Art Tools*|Affinity Designer \| Affinity Photo|
 
 ## Notable Credits
 
@@ -119,7 +119,7 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 - I was a volunteer travel league baseball coach for ages 9-13 for several years.  A lot of work, genuinely one of the most rewarding things I've done.
 - Baseball doesn't stop at coaching. I still play in a local adult rec league.
 - My all-time favorite game is Wing Commander.
-- One of my first real jobs was raising chicken for Foster Farms... I'll occassionally just start talking about my time there in what my friends call my "chicken stories".  It was a... memorable time.
+- One of my first real jobs was raising chicken for Foster Farms... I'll occasionally just start talking about my time there in what my friends call my "chicken stories".  It was a... memorable time.
 
 <div class="about-images">
   <img src="/images/me_circle_01.png" alt="This is me">
