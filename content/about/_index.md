@@ -110,6 +110,7 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
   <img src="/images/me_circle_00.png" alt="This is me, too">
   <img src="/images/me_circle_02.png" alt="This is me pretending to be a middle manager.">
   <img src="/images/me_circle_03.png" alt="This is me looking tough, as the kids would say.">
+  <img src="/images/me_circle_04.png" alt="This is me looking tough, as the kids would say.">
 </div>
 
 [Back to top](#about-me)
