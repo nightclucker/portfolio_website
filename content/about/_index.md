@@ -1,9 +1,8 @@
 ---
 weight: 1
-sidebar_right: skills
 ---
 
-[About Me](#about-me) | [Notable Credits](#notable-credits) | [Philosophy](#philosophy) | [Work History](#work-history) | [Education](#education) | [Fun Facts](#fun-facts)
+[About Me](#about-me) | [Skills and Tools](#skills-and-tools) | [Notable Credits](#notable-credits) | [Philosophy](#philosophy) | [Work History](#work-history) | [Education](#education) | [Fun Facts](#fun-facts)
 
 ## About Me
 
@@ -16,6 +15,20 @@ Reliability and kindness are the two things I want to be known for. I care genui
 I also like leaving my mark in small ways where ever I am.  That would include such things as fist-bumping everyone and the camera at the end of a virtual meeting, leaving an inspirational quote on the office coffee carafe, or spending way too long Photoshopping a colleague's face onto a baseball card just to make them laugh.
 
 Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a life-long Magic the Gathering collector who’s recently got back into playing.   I’m also a gamer as well which should go without saying.  I enjoy making my own board, cards, and video games at home too.
+
+## Skills and Tools
+
+| **Category** | **Tools** |
+|:---|:---|
+| *CI/CD & Build* | Jenkins, Fastlane, Python-based build frameworks |
+| *Version Control* | Perforce (P4D, P4V, Swarm, P4P), GitHub (administration), Git |
+| *Languages* | Python, Bash/Shell, Groovy, C++, HTML |
+| *Cloud & Infrastructure* | AWS, On-Prem/On-Metal, Colocation |
+| *Game Engines* | Unreal Engine, Unity |
+| *Shipped Platforms* | iOS, tvOS, macOS, Android, Windows, PlayStation 4 |
+| *Stores Shipped To* | Google Play Store, Apple Store Connect, TestFlight, Apple Arcade, Steam |
+| *IDEs* | PyCharm, Rider, VS Code, Visual Studio |
+| *Art Tools* | Affinity Designer, Affinity Photo |
 
 ## Notable Credits
 
