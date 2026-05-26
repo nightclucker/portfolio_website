@@ -20,17 +20,17 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 
 ## Skills and Tools
 
-| **Category** | **Tools** |
+|**Category**|**Tools**|
 |:---|:---|
-| *CI/CD & Build* | Jenkins, Fastlane, Python-based build frameworks |
-| *Version Control* | Perforce (P4D, P4V, Swarm, P4P), GitHub (administration), Git |
-| *Languages* | Python, Bash/Shell, Groovy, C++, HTML |
-| *Cloud & Infrastructure* | AWS, On-Prem/On-Metal, Colocation |
-| *Game Engines* | Unreal Engine, Unity |
-| *Shipped Platforms* | iOS, tvOS, macOS, Android, Windows, PlayStation 4 |
-| *Stores Shipped To* | Google Play Store, Apple Store Connect, TestFlight, Apple Arcade, Steam |
-| *IDEs* | PyCharm, Rider, VS Code, Visual Studio |
-| *Art Tools* | Affinity Designer, Affinity Photo |
+|*CI/CD & Build*|Jenkins, Fastlane, Python-based build frameworks|
+|*Version Control*|Perforce (P4D, P4V, Swarm, P4P), GitHub (administration), Git|
+|*Languages*|Python, Bash/Shell, Groovy, C++, HTML|
+|*Cloud & Infrastructure*|AWS, On-Prem/On-Metal, Colocation|
+|*Game Engines*|Unreal Engine, Unity|
+|*Shipped Platforms*|iOS, tvOS, macOS, Android, Windows, PlayStation 4|
+|*Stores Shipped To*|Google Play Store, Apple Store Connect, TestFlight, Apple Arcade, Steam|
+|*IDEs*|PyCharm, Rider, VS Code, Visual Studio|
+|*Art Tools*|Affinity Designer, Affinity Photo|
 
 ## Notable Credits
 
@@ -70,7 +70,7 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 ## Work History
 
 **Lead DevOps Engineer**
-| Imangi Studios, LLC | _May 2018 – May 2026_
+| Imangi Studios, LLC | *May 2018 – May 2026*
 
 Walked into a studio with no CI/CD pipeline and a Jenkins server that had already been abandoned once. Rebuilt it from the ground up, this time to last. Designed and implemented a full build and release workflow using Jenkins backed by an on-premise farm of Mac Minis, which later moved to colocation with AWS to scale it when necessary. To make pipelines something developers actually wanted to use, I authored a Jenkins shared library and introduced pipelines-as-code, making builds more reliable and far easier to maintain.
 
@@ -81,7 +81,7 @@ Reducing friction is something I enjoy doing. I built out a knowledge base of do
 Jenkins | Python | Groovy | Perforce | GitHub | AWS | Unity | Google Play Store | Apple Store Connect | Macs | Scripting
 
 **Build Engineer**
-| Boss Key Productions | _Oct 2015 – Apr 2018_
+| Boss Key Productions | *Oct 2015 – Apr 2018*
 
 Inherited a custom build system in Python built by the lead engineer which was functional, but missing most of what you'd expect from a CI/CD pipeline: no messaging, no scheduling, no error reporting, no artifact storage. With LawBreakers moving fast toward ship, there was no time to swap in a new framework, so I extended what was there. I built out the missing core capabilities myself — Slack and email notifications, task queuing, error reporting, scheduling, multi-project support, app signing, local game server test launching, and artifact storage. Then came the optimization pass: by the end, full builds of LawBreakers went from two and a half hours down to 30 minutes.
 
@@ -90,19 +90,19 @@ Alongside the build system work, I owned Perforce support for the studio handlin
 Python | Unreal | Linux | Windows | Steam | HTML | Javascript | Perforce | On-Premise Infra | Incredibuild | Scripting
 
 **Associate QA Engineer / Automation Test Coordinator / Software Tester**
-| Epic Games, Inc. | _Sep 2006 – Sep 2015_
+| Epic Games, Inc. | *Sep 2006 – Sep 2015*
 
 The first half of my career was rooted in testing and supporting Unreal Engine. It's where I learned what it actually means to be a developer; how to test and troubleshoot, how to build levels and content in the Unreal Editor, how to write and compile code, how to ship, and how to support the people around me without hoarding knowledge.
 
-_Aug 2015 — Sep 2015_
+*Aug 2015 — Sep 2015*
 
 Shifted into automation when Epic needed someone to bring test automation to life inside Unreal. Got up to speed on the Unreal Engine automation framework, then turned around and taught it to others. Partnered with external companies to expand the framework and accelerate test coverage. Also used the role to improve internal developer workflows with one example being a validation task for the UE Marketplace team that automatically checked submitted content and surfaced errors, cutting down their review cycle considerably.
 
-_Aug 2008 — Aug 2015_
+*Aug 2008 — Aug 2015*
 
 Led a team of 15 software testers through years of Unreal Engine releases: UE3, UDK, and UE4. The milestone I'm most proud of: consistently shipping monthly engine updates to licensees and the public without missing a beat. Keeping that cadence reliable across a team of 15, over multiple engine generations, for years, is the kind of thing that looks easy from the outside and isn't. On top of that I also created a lot of test content and levels using the Unreal Engine along with a lot of written test documentation as well. Supported the local artists and engineers with their Unreal Engine and Perforce issues.
 
-_Aug 2006 — Aug 2008_
+*Aug 2006 — Aug 2008*
 
 Where it all started. Black-box tested Gears of War 1, Unreal Tournament 3, and Gears of War 2 across PC, Xbox 360, and PS3 — campaigns, multiplayer, mod support, certification bugs, and everything in between. Learned early how to communicate a bug clearly enough that a developer could actually reproduce and fix it.
 
