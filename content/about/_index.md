@@ -99,7 +99,7 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 
 ## Fun Facts
 
-- I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map. I designed it, shelled it, and iterated on it based on playtest feedback while an artist made it look.
+- I have a design credit in Gears of War: Judgment for making the the [Junkyard](https://youtu.be/m3m_9wyx50A?si=I4xT4q5H4uxt7AMG) multiplayer map. I designed it, shelled it, and iterated on it based on playtest feedback while an artist made it look like an actual place.
 - I won first place in the World of Level Designs ["Storytelling Level Design Challenge"](https://www.worldofleveldesign.com/categories/level_design_challenges/storytelling2-2012-level-design-challenge-04-top-5-and-winner.php). Using the UDK, I handcrafted a small scene built around a single quote about fire and loss. You can see the final result here: [NightCluckers entry](https://youtu.be/286i7U26yEU?si=AyclIzHKsPDhfBXy)
 - I was a volunteer travel league baseball coach for ages 9-13 for several years.  A lot of work, genuinely one of the most rewarding things I've done.
 - Baseball doesn't stop at coaching. I still play in a local adult rec league.
