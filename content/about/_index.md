@@ -117,6 +117,7 @@ B.A. in Multimedia (Game Design Emphasis) – University of Advancing Technology
 - I was a volunteer travel league baseball coach for ages 9-13 for several years.  A lot of work, genuinely one of the most rewarding things I've done.
 - Baseball doesn't stop at coaching. I still play in a local adult rec league.
 - My all-time favorite game is Wing Commander.
+- One of my first real jobs was raising chicken for Foster Farms... I'll occassionally just start talking about my time there in what my friends call my "chicken stories".  It was a... memorable time. 
 
 <div class="about-images">
   <img src="/images/me_circle_01.png" alt="This is me">
