@@ -4,20 +4,6 @@ weight: 1
 
 [About Me](#about-me) | [Skills and Tools](#skills-and-tools) | [Notable Credits](#notable-credits) | [Philosophy](#philosophy) | [Work History](#work-history) | [Education](#education) | [Fun Facts](#fun-facts)
 
-## About Me
-
-In my 20 years in the game industry, I’ve had the privilege of contributing to some great franchises such as Temple Run and Gears of War all the time working alongside some truly amazing people.  It’s mind boggling to think that the products we worked on have been played by millions and millions of people.  The Temple Run franchise alone has over a billion downloads.
-
-For the last eight years, I've served as the sole DevOps/Build Engineer and Perforce Administrator at Imangi Studios.   I owned everything from CI/CD pipelines and build farm infrastructure to developer support and source control administrator for a studio with distributed workforce. My colleagues call me the Perforce wizard because I've made sure that any issue they had was dealt with quickly as well as providing know-how through documentation, videos, and to make sure others can become wizards too.
-
-My career has been defined by being the one assigned to the projects no one else wanted. I’ve taken on everything from figuring out automation testing in Unreal Engine, to inheriting a home‑brew CI/CD system, to suddenly becoming the owner of the Perforce server because the senior engineers were done with it. I don’t mind a challenge, and I’m always ready to learn something new.
-
-Reliability and kindness are the two things I want to be known for. I care genuinely about the people I work with and when someone's stuck, I want to help, and when things go wrong, I'd rather we figure it out together than point fingers. I try and want to be the kind of teammate who shows up, shares what they know, and leaves the team better than they found it.
-
-I also like leaving my mark in small ways where ever I am.  That would include such things as fist-bumping everyone and the camera at the end of a virtual meeting, leaving an inspirational quote on the office coffee carafe, or spending way too long Photoshopping a colleague's face onto a baseball card just to make them laugh.
-
-Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a life-long Magic the Gathering collector who’s recently got back into playing.   I’m also a gamer as well which should go without saying.  I enjoy making my own board, cards, and video games at home too.
-
 ## Skills and Tools
 
 |**Category**|**Tools**|
@@ -31,6 +17,20 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 |*Stores Shipped To*|Google Play Store \| Apple Store Connect \| TestFlight \| Apple Arcade \| Steam|
 |*IDEs*|PyCharm \| Rider \| VS Code \| Visual Studio|
 |*Art Tools*|Affinity Designer \| Affinity Photo|
+
+## About Me
+
+In my 20 years in the game industry, I’ve had the privilege of contributing to some great franchises such as Temple Run and Gears of War all the time working alongside some truly amazing people.  It’s mind boggling to think that the products we worked on have been played by millions and millions of people.  The Temple Run franchise alone has over a billion downloads.
+
+For the last eight years, I've served as the sole DevOps/Build Engineer and Perforce Administrator at Imangi Studios.   I owned everything from CI/CD pipelines and build farm infrastructure to developer support and source control administrator for a studio with distributed workforce. My colleagues call me the Perforce wizard because I've made sure that any issue they had was dealt with quickly as well as providing know-how through documentation, videos, and to make sure others can become wizards too.
+
+My career has been defined by being the one assigned to the projects no one else wanted. I’ve taken on everything from figuring out automation testing in Unreal Engine, to inheriting a home‑brew CI/CD system, to suddenly becoming the owner of the Perforce server because the senior engineers were done with it. I don’t mind a challenge, and I’m always ready to learn something new.
+
+Reliability and kindness are the two things I want to be known for. I care genuinely about the people I work with and when someone's stuck, I want to help, and when things go wrong, I'd rather we figure it out together than point fingers. I try and want to be the kind of teammate who shows up, shares what they know, and leaves the team better than they found it.
+
+I also like leaving my mark in small ways where ever I am.  That would include such things as fist-bumping everyone and the camera at the end of a virtual meeting, leaving an inspirational quote on the office coffee carafe, or spending way too long Photoshopping a colleague's face onto a baseball card just to make them laugh.
+
+Outside of work, I’m big into baseball as I have coached my kids' team for several seasons, and I still play as an adult in a local men's recreation league.  I’m also a life-long Magic the Gathering collector who’s recently got back into playing.   I’m also a gamer as well which should go without saying.  I enjoy making my own board, cards, and video games at home too.
 
 ## Notable Credits
 
