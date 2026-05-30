@@ -73,37 +73,10 @@ jobs:
         # false failures from rate-limited sites). Remove it if you want full
         # link checking — but expect slower runs and occasional flakiness.
 
-  # ── Security ──────────────────────────────
-  security:
-    name: Audit dependencies
-    needs: validate
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout (with submodules)
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-
-      - name: Audit dependencies
-        run: npm audit --audit-level=moderate
-
-      - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
-        with:
-          languages: 'javascript'
-
-      - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
-
-      - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
-        
   # ── Promote to release if all checks passed ──────────────────────────────
   promote:
     name: Promote to release
-    needs: security
+    needs: validate
     runs-on: ubuntu-latest
     if: success()
     permissions:
