@@ -68,7 +68,7 @@ If you are curious, here are the steps and stages I went through to get this sit
 1. Registered a URL using [Porkbun](https://porkbun.com/).  It appears to be nicely priced and easy to use.
 1. Create a GitHub repository [nightclucker/portfolio_website](https://github.com/nightclucker/portfolio_website)
 1. Set up DNS records in Porkbun to point to the GitHub pages IPs.
-1. Research into static website generators. Picked Hugo as they had a lot of interesting themes. 
+1. Research into static website generators. Picked Hugo as they had a lot of interesting themes.
 1. Research into how to use Hugo and the theme.  Used co-pilot to assist me in figuring out certain things.
 1. Had Co-pilot boilerplate the site for me.
 1. Hooked up the hugo workspace in GitHub.  Now when I submit it will now deploy to GitHub Pages.
@@ -113,4 +113,3 @@ This may be a simple project but I did face a few issues and bugs that I had to 
 This project was straightforward in scope but intentionally challenging in practice as it involved several tools I had little or no prior experience with, including GitHub Actions, GitHub Pages, and Hugo. I also made a deliberate effort to minimize AI assistance and work through problems myself, which led to a much deeper understanding of how these pieces fit together. The issues I ran into reinforced why automated validation matters: the pipeline caught spelling mistakes and broken links that manual review would have missed.
 
 [Back to Top](#overview)
-
