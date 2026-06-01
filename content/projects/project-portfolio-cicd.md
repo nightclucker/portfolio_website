@@ -39,8 +39,6 @@ Feature branches feed into dev, dev stabilizes into main, and main produces numb
 - **Decision 2** — Trade-offs considered.
 - **Decision 3** — Constraints that shaped the design.
 
-
-
 ## Implementation
 
 Walk through how you built it. Break this into phases or logical chunks — don't just list steps, explain the *why* behind each one.
@@ -78,15 +76,6 @@ Quantify outcomes wherever possible.
 - **Before:** _e.g., deploys took 45 minutes, were fully manual_
 - **After:** _e.g., deploys take 8 minutes, fully automated with zero-touch rollbacks_
 
-| Metric              | Before   | After    | Change      |
-|---------------------|----------|----------|-------------|
-| Deploy time         | 45 min   | 8 min    | −82%        |
-| MTTR                | 4 hours  | 35 min   | −85%        |
-| Manual steps        | 17       | 0        | −100%       |
-| On-call pages/week  | 12       | 1        | −92%        |
-
----
-
 ## Lessons Learned
 
 Honest reflection on what you'd do differently, what surprised you, and what you'd take into your next project.
@@ -104,18 +93,3 @@ What's on the roadmap or what you'd tackle next given more time.
 - [ ] Feature / improvement idea 1
 - [ ] Feature / improvement idea 2
 - [ ] Feature / improvement idea 3
-
----
-
-## Links & Resources
-
-| Resource         | Link                          |
-|------------------|-------------------------------|
-| GitHub Repo      | [github.com/you/project](#)   |
-| Live Demo        | [demo.yoursite.com](#)        |
-| Runbook          | [Confluence / Notion link](#) |
-| Related Post     | [Blog post or talk](#)        |
-
----
-
-*Last updated: Month Year · [Back to Projects](../index.md)*
