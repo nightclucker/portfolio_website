@@ -1,0 +1,36 @@
+name: Auto Tag Release
+
+on:
+  push:
+    branches:
+      - release
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # required to fetch tags
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          latest=$(git describe --tags --abbrev=0 2>/dev/null || echo "v1.0")
+          echo "latest=$latest" >> $GITHUB_OUTPUT
+
+      - name: Compute next version
+        id: bump
+        run: |
+            latest="${{ steps.get_tag.outputs.latest }}"
+            latest="${latest#v}"
+            IFS='.' read -r major minor <<< "$latest"
+            minor=$((minor + 1))
+            new="v$major.$minor"
+            echo "new_tag=$new" >> $GITHUB_OUTPUT
+
+      - name: Create tag
+        run: |
+          git tag ${{ steps.bump.outputs.new_tag }}
+          git push origin ${{ steps.bump.outputs.new_tag }}
