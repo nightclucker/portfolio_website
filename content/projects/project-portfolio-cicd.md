@@ -2,7 +2,7 @@
 title: "Portfolio Website Pipeline"
 date: 2026-05-30
 draft: false
-tags: ["CI/CD", "Git", "GitHub", "GitHub Actions", "GitHub Secrets", "Hugo"]
+tags: ["CI/CD"]
 
 description: "A fully automated static-site deployment workflow for this website using GitHub Actions and Pages."
 ---
@@ -20,7 +20,7 @@ This pipeline is intended to make it incredibly easy for me to update this portf
 Here's a list of tools and technologies that was used in the construction of this pipeline.
 
 | **Category** | **Technology/Tool** |
-|:---|:---|
+| :--- | :--- |
 | *CI/CD* | GitHub Actions|
 | *Source Control* | Git, GitHub |
 | *IDE* | VS Code |
@@ -31,12 +31,7 @@ Here's a list of tools and technologies that was used in the construction of thi
 
 ## Development Workflow
 
-The desired workflow is for the developer to commits to their feature or dev branches.  Then merge into Main which gets 
-
-
-```
-[ Insert architecture diagram here — e.g. ASCII, Mermaid, or linked image ]
-```
+Feature branches feed into dev, dev stabilizes into main, and main produces numbered release branches.
 
 **Key design decisions:**
 
