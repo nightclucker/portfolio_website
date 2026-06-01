@@ -16,3 +16,27 @@
     height: auto;
     border-radius: 50%;
 }
+
+body {
+  background: #2A2A2A;
+  color: #e7ecef;
+}
+
+#page-wrapper,
+section.wrapper.style1 {
+  background: transparent;
+}
+
+#content article {
+  background: #2a2a2a;
+  color: #f0f4f8;
+}
+
+#header {
+  background: #2A2A2A;
+  background-image: none !important;
+}
+
+#header h1 a {
+  color: #f5f7fa;
+}
