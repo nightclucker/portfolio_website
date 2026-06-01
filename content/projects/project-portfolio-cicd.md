@@ -21,7 +21,7 @@ Here's a list of tools and technologies that was used in the construction of thi
 
 | **Category** | **Technology/Tool** |
 | :--- | :--- |
-| *CI/CD* | GitHub Actions|
+| *CI/CD* | GitHub Actions |
 | *Source Control* | Git, GitHub |
 | *IDE* | VS Code |
 | *Language* | YAML, HTML, Markdown |
@@ -73,16 +73,9 @@ What made this hard and your solution.
 
 Quantify outcomes wherever possible.
 
-- **Before:** _e.g., deploys took 45 minutes, were fully manual_
-- **After:** _e.g., deploys take 8 minutes, fully automated with zero-touch rollbacks_
-
 ## Lessons Learned
 
 Honest reflection on what you'd do differently, what surprised you, and what you'd take into your next project.
-
-- **What worked well:** ...
-- **What I'd do differently:** ...
-- **Unexpected insight:** ...
 
 ---
 
