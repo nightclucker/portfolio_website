@@ -11,7 +11,7 @@ description: "A fully automated static-site deployment workflow for this website
 
 ## Overview
 
-This project showcases a complete CI/CD pipeline built using Hugo for static-site generation and GitHub Actions for automated buidls and deployments.  The objective was to create a fast, reliable, zero-touch deployment process for a modern static website.  
+This project showcases a complete CI/CD pipeline built using Hugo for static-site generation and GitHub Actions for automated builds and deployments.  The objective was to create a fast, reliable, zero-touch deployment process for a modern static website.  
 
 This pipeline is intended to make it incredibly easy for me to update this portfolio site error-free and deployed quickly.
 
