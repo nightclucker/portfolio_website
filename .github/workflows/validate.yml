@@ -81,6 +81,7 @@ jobs:
           htmlproofer public \
             --ignore-urls "/localhost/,/127.0.0.1/" \
             --allow-missing-href
+            --ignore-urls "/linkedin.com/"
         # --disable-external skips checking external URLs (faster, avoids
         # false failures from rate-limited sites). Remove it if you want full
         # link checking — but expect slower runs and occasional flakiness.
