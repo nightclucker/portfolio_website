@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - dev
 
 jobs:
   validate:
@@ -78,7 +79,7 @@ jobs:
     name: Promote to release
     needs: validate
     runs-on: ubuntu-latest
-    if: success()
+    if: github.ref == 'refs/heads/main' && success()
     permissions:
       contents: write
 
