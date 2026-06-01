@@ -34,7 +34,9 @@ jobs:
         run: npm install -g markdownlint-cli
 
       - name: Lint Markdown
+        id: markdownlint
         run: markdownlint "content/**/*.md"
+        continue-on-error: true
         # To customise rules, add a .markdownlint.json at your repo root.
         # Common starter config:
         #   { "MD013": false }   <- disables line-length rule (handy for prose)
@@ -44,7 +46,9 @@ jobs:
         run: npm install -g cspell
 
       - name: Spell check
+        id: cspell
         run: cspell "content/**/*.md"
+        continue-on-error: true
         # Add a cspell.json at your repo root to configure dictionaries and
         # ignore lists. Example to get started:
         #
@@ -54,6 +58,14 @@ jobs:
         #   "ignorePaths": ["public/**", "themes/**"],
         #   "words": ["DevOps", "Hugo", "Perforce", "yourname"]
         # }
+
+      - name: Fail if markdown or spell checks failed
+        if: always()
+        run: |
+          if [[ "${{ steps.markdownlint.outcome }}" != "success" || "${{ steps.cspell.outcome }}" != "success" ]]; then
+            echo "Markdown lint or spell check failed."
+            exit 1
+          fi
 
       # ── 4. HTML & link validation ──────────────────────────────────────────
       - name: Setup Ruby (required for htmlproofer)
