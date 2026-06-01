@@ -79,7 +79,6 @@ jobs:
       - name: Run htmlproofer
         run: |
           htmlproofer public \
-            --disable-external \
             --ignore-urls "/localhost/,/127.0.0.1/" \
             --allow-missing-href
         # --disable-external skips checking external URLs (faster, avoids
