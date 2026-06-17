@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="{{ .Language }}">
+    <head>
+        {{- partial "head/head.html" . -}}
+        {{- template "_internal/opengraph.html" . -}}
+    </head>
+    <body class="is-preload">
+        {{- partial "analytics/google-tag-manager/body.html" . }}
+        <div id="page-wrapper">
+            {{- partial "header.html" . }}
+
+            <section class="wrapper style2">
+                <div class="container">
+                    <header class="major">
+                        <h2>{{ .Title }}</h2>
+                        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+                    </header>
+                </div>
+            </section>
+
+            <section class="wrapper style1">
+                <div class="container">
+                    {{ range .RegularPages }}
+                        <div class="project-card">
+                            <div class="project-card-body">
+                                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                                {{ with .Description }}<p class="project-card-desc">{{ . }}</p>{{ end }}
+                                {{ with .GetTerms "tags" }}
+                                    <ul class="project-card-tags">
+                                        {{ range . }}
+                                            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                                        {{ end }}
+                                    </ul>
+                                {{ end }}
+                                <a href="{{ .RelPermalink }}" class="button small">Read More</a>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </section>
+
+            <section id="cta" class="wrapper style3">
+                <div class="container">
+                    <header>
+                        <h2>Have a project in mind?</h2>
+                        <a href="/contact/" class="button">Contact Me</a>
+                    </header>
+                </div>
+            </section>
+
+            {{- partial "footer/footer.html" . -}}
+        </div>
+        {{- partial "scripts.html" . -}}
+    </body>
+</html>
