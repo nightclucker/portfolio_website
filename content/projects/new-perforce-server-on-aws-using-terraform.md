@@ -37,7 +37,6 @@ Here's a list of tools and technologies that was used in the construction of thi
 
 ...
 
-
 ---
 
 ## Issues Faced
