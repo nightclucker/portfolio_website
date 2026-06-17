@@ -12,7 +12,7 @@ description: "Terraform configuration that provisions a fully functional Perforc
 
 ## Overview
 
-Terraform configuration that provisions a fully functional Perforce (P4) server on AWS. It replaces the original Perforce CloudFormation‑based deployment with a modern, modular Terraform implementation, enabling consistent, repeatable, and automated P4 server creation in the cloud.
+This project uses Terraform to provision a fully functional Perforce (P4) server on AWS. It replaces the original Perforce CloudFormation‑based deployment with a modern, modular Terraform implementation, enabling consistent, repeatable, and automated P4 server creation in the cloud.
 
 ### Problem Statement
 
