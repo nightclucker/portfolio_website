@@ -32,7 +32,7 @@ Here's a list of tools and technologies that was used in the construction of thi
 | *AI* | Co-Pilot |
 | *Other* | Hugo, Affinity Canva |
 
-## Development Workflow
+## Intended Workflow
 
 Feature branches feed into dev, dev stabilizes into main, and main then merges into the release branch.
 
