@@ -1,7 +1,7 @@
 ---
 title: "New Perforce Server on AWS Using Terraform"
 draft: false
-tags: ["Infrastructure as Code", "Infrastructure", "Cloud"]
+tags: ["Infrastructure as Code", "Infrastructure", "Cloud", "AWS", "Perforce"]
 
 description: "Terraform configuration that provisions a fully functional Perforce (P4) server on AWS."
 ---
@@ -16,7 +16,7 @@ This project uses Terraform to provision a fully functional Perforce (P4) server
 
 ### Problem Statement
 
-How can I ...?
+Can I use terraform to provision new Perforce servers?
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ Here's a list of tools and technologies that was used in the construction of thi
 | :--- | :--- |
 | *Source Control* | Git, GitHub |
 | *IDE* | VS Code |
-| *Infrastructure* | Terraform, Terraform Cloud (tfcloud) |
+| *Infrastructure* | AWS, Terraform, Terraform Cloud (tfcloud) |
 | *AI* | Co-Pilot |
 
 ## Intended Workflow
