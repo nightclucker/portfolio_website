@@ -8,7 +8,7 @@ description: "A fully automated static-site deployment workflow for this website
 
 **Source: [nightclucker/portfolio_website](https://github.com/nightclucker/portfolio_website)**
 
-[Overview](#overview) | [Tech Stack](#tech-stack) | [Development Workflow](#development-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Takeaway](#takeaway)
+[Overview](#overview) | [Tech Stack](#tech-stack) | [Intended Workflow](#intended-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Takeaway](#takeaway)
 
 ## Overview
 
@@ -32,7 +32,7 @@ Here's a list of tools and technologies that was used in the construction of thi
 | *AI* | Co-Pilot |
 | *Other* | Hugo, Affinity Canva |
 
-## Development Workflow
+## Intended Workflow
 
 Feature branches feed into dev, dev stabilizes into main, and main then merges into the release branch.
 
