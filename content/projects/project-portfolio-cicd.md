@@ -8,7 +8,7 @@ description: "A fully automated static-site deployment workflow for this website
 
 **Source: [nightclucker/portfolio_website](https://github.com/nightclucker/portfolio_website)**
 
-[Overview](#overview) | [Tech Stack](#tech-stack) | [Development Workflow](#development-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Takeaway](#takeaway)
+[Overview](#overview) | [Tech Stack](#tech-stack) | [Intended Workflow](#intended-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Takeaway](#takeaway)
 
 ## Overview
 
