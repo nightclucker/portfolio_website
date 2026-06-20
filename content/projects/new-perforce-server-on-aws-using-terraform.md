@@ -8,7 +8,7 @@ description: "Terraform configuration that provisions a fully functional Perforc
 
 **Source: [nightclucker/perforce-server-on-aws](https://github.com/nightclucker/perforce-server-on-aws)**
 
-[Overview](#overview) | [Tech Stack](#tech-stack) | [Intended Workflow](#intended-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Next Steps](#next-steps) | [Takeaway](#takeaway)
+[Overview](#overview) | [Tech Stack](#tech-stack) | [Intended Workflow](#intended-workflow) | [Implementation](#implementation) | [Issues Faced](#issues-faced) | [Next Steps](#next-steps)
 
 ## Overview
 
@@ -43,7 +43,7 @@ All work is done on the main branch.  Developers write and iterate on Terraform 
 
 To use the P4 server you'll need to follow the "Usage Instructions" on the Perforce P4 (Helix Core) AWS Marketplace page:
 
-> To get started, you will need to download the Helix Visual Client (P4V): https://www.perforce.com/downloads/helix-visual-client-p4v.
+> To get started, you will need to download the Helix Visual Client (P4V): <https://www.perforce.com/downloads/helix-visual-client-p4v>.
 >
 >To connect to the server, connection is "ssl:IP:1666" (IP is the "Public IPv4 address"), username is "perforce" and password is the "Instance Id" (ex: i-a123456789). Operating system username is "rocky".
 
@@ -59,8 +59,8 @@ Terraform can be straightforward as it reads almost like a recipe book but probl
 
 - Server is replaced on every run when it was expected that nothing would change.
   - Fix: Added a `lifecycle{}` block that set to ignore the changes in ami.
-  - Now if you need to replace the ami you can force it in with `-replace="aws_instance.p4_instance"` on the command line or use the advanced options when triggering a run in Terraform Cloud. 
-  - This change prevent accidental deletion of the server. 
+  - Now if you need to replace the ami you can force it in with `-replace="aws_instance.p4_instance"` on the command line or use the advanced options when triggering a run in Terraform Cloud.
+  - This change prevent accidental deletion of the server.
 
 - Unable to upgrade the server with each run as the volumes would be remade every time sacrificing the data that was on them.
   - Fix: Created the ebs resources and then assigned them to be attached to the server.
