@@ -1,5 +1,5 @@
 ---
-title: "New Perforce Server on AWS Using Terraform"
+title: "Provisioning Perforce Server on AWS with Terraform"
 draft: false
 tags: ["Infrastructure as Code", "Infrastructure", "Cloud", "AWS", "Perforce"]
 
@@ -46,6 +46,8 @@ To use the P4 server you'll need to follow the "Usage Instructions" on the Perfo
 > To get started, you will need to download the Helix Visual Client (P4V): <https://www.perforce.com/downloads/helix-visual-client-p4v>.
 >
 >To connect to the server, connection is "ssl:IP:1666" (IP is the "Public IPv4 address"), username is "perforce" and password is the "Instance Id" (ex: i-a123456789). Operating system username is "rocky".
+
+![Terraform Cloud to AWS Workflow](/images/project/terraform-p4/terraform-workflow.png)
 
 ## Implementation
 
