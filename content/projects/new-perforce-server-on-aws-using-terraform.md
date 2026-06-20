@@ -70,5 +70,4 @@ Terraform can be straightforward as it reads almost like a recipe book but probl
 
 The script does exactly what you want it to do.  The next thing would be to implement an actual CI pathway for the code side of things that includes: linting/formatting, validation, and policy regulation and implementation.
 
-
 [Back to Top](#overview)
