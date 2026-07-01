@@ -33,6 +33,8 @@ Here's a list of tools and technologies that was used in the construction of thi
 
 An admin with Perforce super-user privileges runs the script once per new project, supplying the project name and a comma-separated list of P4 usernames. The script handles the rest.
 
+This is intended to be runnable on Linux and Mac machines.
+
 **Steps:**
 
 1. **Validate Environment** — The script confirms that the Perforce CLI (`p4`) is installed and on the `PATH`, that there is an active `p4 login` session, and that the logged-in user is a member of the `Super` group. If any check fails the script exits with an error before making any changes.
@@ -85,6 +87,7 @@ Permissions are added to the top of the p4 protect `Protections:` table as the o
 
 The script covers the core setup steps needed to get a project running. Future improvements could include:
 
+- Adding files, such as Jenkinsfiles, used by the various pipelines to the streams after they are created.  
 - Adding a `--dry-run` flag that prints what would be created without making any changes.
 - Supporting a configuration file input instead of positional arguments, to make it easier to define projects with many users or non-default stream layouts.
 - Extending the stream hierarchy to include per-developer task streams created automatically for each user in the group.
