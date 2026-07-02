@@ -65,7 +65,7 @@ Progress and errors are logged to both stdout and the system log via `logger` un
 
 Functionally, the script Claude produced lands in the same place as Part 1: a depot, six streams split into `dev` and `release` categories, a group, and a protections entry, with the same idempotent, safe-to-rerun behavior. From the "Nice to haves" list in the design doc, it chose to build a dry-run mode, logic to add missing users to the group on a re-run, and a creation timestamp and description written into every spec — all relatively cheap additions given the "keep it simple" instruction in the doc. It deliberately left out the heavier items like a Docker image, email notifications, and per-stream README files, reasoning that they needed infrastructure the repo didn't have.
 
-Where it diverges from my version is in how it's built. Instead of writing a reusable stream creation function, Claude generalized them into `create_mainline_stream()` and `create_release_stream()` functions parameterized by name, parent, and a merge-down flag which means that it called these functions six times.  I don't know if my way is correct but it took in a list of streams which then I looped over to make them. 
+Where it diverges from my version is in how it's built. Instead of writing a reusable stream creation function, Claude generalized them into `create_mainline_stream()` and `create_release_stream()` functions parameterized by name, parent, and a merge-down flag which means that it called these functions six times.  I don't know if my way is correct but it took in a list of streams which then I looped over to make them.
 
 Planning: **[Claudes Plan](https://github.com/nightclucker/dev-tools/blob/main/p4-project-bootstrap-docs/p4-project-bootstrap-plan.md)**
 
