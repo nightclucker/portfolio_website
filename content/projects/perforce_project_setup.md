@@ -60,6 +60,8 @@ This creates the `MyGame` depot, all mainline and release streams, a `MyGame` gr
 
 Progress and errors are logged to both stdout and the system log via `logger` under the tag `p4-project-setup`.
 
+![Output from this script](/images/project/p4-project-setup/new-p4-setup.png)
+
 ## Implementation
 
 The script is structured around a set of discrete, single-responsibility functions that mirror the steps above. Each function performs its own idempotency check before issuing any P4 commands, querying the server to see if the resource already exists and skipping creation if it does.
