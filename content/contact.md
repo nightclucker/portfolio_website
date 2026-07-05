@@ -5,7 +5,7 @@ weight: 4
 
 Let’s connect.
 
-- Email: [hairgamer@live.com](mailto:hairgamer@live.com)
+- Email: [justin@justin-hair.com](mailto:justin@justin-hair.com)
 - LinkedIn: [https://www.linkedin.com/in/justinhair/](https://www.linkedin.com/in/justinhair/)
 - GitHub: [https://github.com/nightclucker](https://github.com/nightclucker)
 
