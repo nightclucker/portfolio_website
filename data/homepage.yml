@@ -18,6 +18,13 @@ items:
       icon: fa-heart
       content: >
         "The developer is my customer" is my philosophy.  I strive to create tools and processes that make developers' lives easier and more productive.
+  - type: card
+    heading: JustInOps on YouTube
+    image: "images/justinops-thumbnail.jpg"
+    image_alt: "JustInOps YouTube channel"
+    contents: >
+      I run JustInOps, a YouTube channel on DevOps for game development and creative tech —
+      build pipelines, CI/CD, and the infrastructure behind shipping games. [Visit the channel](https://www.youtube.com/@JustInOps-Engineer).
   - type: cta
     contents: Let's automate it!
     button:
