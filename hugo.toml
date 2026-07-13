@@ -42,3 +42,7 @@ paginate = 10
     title = "LinkedIn"
     icon = "fa-linkedin-in"
     url = "https://www.linkedin.com/in/justinhair/"
+[[params.social]]
+    title = "YouTube"
+    icon = "fa-youtube"
+    url = "https://www.youtube.com/@JustInOps-Engineer"
