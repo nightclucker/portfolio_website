@@ -9,9 +9,10 @@ weight: 1
 |**Category**|**Tools**|
 |:---|:---|
 |*CI/CD & Build*|Jenkins \| Fastlane \| Python-based build frameworks|
-|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| GitHub (administration) \| Git|
+|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| Git \| GitHub (administration) \| Bitbucket|
 |*Languages*|Python \| Bash/Shell \| Groovy \| C++ \| HTML|
 |*Cloud & Infrastructure*|AWS \| On-Prem/On-Metal \| Colocation|
+|*AI*|Claude \| Copilot|
 |*Game Engines*|Unreal Engine \| Unity|
 |*Shipped Platforms*|iOS \| tvOS \| macOS \| Android \| Windows \| PlayStation 4|
 |*Stores Shipped To*|Google Play Store \| Apple Store Connect \| TestFlight \| Apple Arcade \| Steam|
@@ -68,6 +69,15 @@ Outside of work, I’m big into baseball as I have coached my kids' team for sev
 - Notifying others of the issue.
 
 ## Work History
+
+**DevOps Engineer**
+| Labcorp (Contracted through Beacon Hill) | *June 2026 - Present*
+
+I'm currently on a 10-month contract with LabCorp, one of the largest clinical laboratory networks in the world, brought in to architect and build out their mobile CI/CD pipeline from scratch with little pipeline in place when I started, which is a situation I've found myself in more than once. I am standing up and administering Mac build infrastructure on AWS, using EC2 Mac instances and dedicated hosts with AMI automation, and building Jenkins pipelines (Jenkinsfile) for both iOS and Android covering builds and automate testing, with an eye toward improving reliability and automating the ability to set up new mobile projects.
+
+As new projects have come online, I've provided ongoing CI/CD and DevOps support across multiple teams and applications. I've also leaned on Claude throughout the engagement, using it to generate scripts, dig through logs, and speed up root-cause analysis whenever something in the build or deployment chain breaks.
+
+Jenkins | Python | AWS (EC2 Mac, dedicated hosts) | iOS | Android | Claude | Scripting
 
 **Lead DevOps Engineer**
 | Imangi Studios, LLC | *May 2018 – May 2026*
