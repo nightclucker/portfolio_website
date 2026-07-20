@@ -9,9 +9,10 @@ weight: 1
 |**Category**|**Tools**|
 |:---|:---|
 |*CI/CD & Build*|Jenkins \| Fastlane \| Python-based build frameworks|
-|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| GitHub (administration) \| Git|
+|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| Git \| GitHub (administration) \| Bitbucket |
 |*Languages*|Python \| Bash/Shell \| Groovy \| C++ \| HTML|
 |*Cloud & Infrastructure*|AWS \| On-Prem/On-Metal \| Colocation|
+|*AI*|Claude \| Copilot|
 |*Game Engines*|Unreal Engine \| Unity|
 |*Shipped Platforms*|iOS \| tvOS \| macOS \| Android \| Windows \| PlayStation 4|
 |*Stores Shipped To*|Google Play Store \| Apple Store Connect \| TestFlight \| Apple Arcade \| Steam|
