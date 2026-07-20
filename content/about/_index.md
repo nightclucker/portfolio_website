@@ -9,7 +9,7 @@ weight: 1
 |**Category**|**Tools**|
 |:---|:---|
 |*CI/CD & Build*|Jenkins \| Fastlane \| Python-based build frameworks|
-|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| Git \| GitHub (administration) \| Bitbucket |
+|*Version Control*|Perforce (P4D, P4V, Swarm, P4P) \| Git \| GitHub (administration) \| Bitbucket|
 |*Languages*|Python \| Bash/Shell \| Groovy \| C++ \| HTML|
 |*Cloud & Infrastructure*|AWS \| On-Prem/On-Metal \| Colocation|
 |*AI*|Claude \| Copilot|
